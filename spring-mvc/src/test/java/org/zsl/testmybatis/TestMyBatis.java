@@ -29,7 +29,7 @@ public class TestMyBatis {
 //		ac = new ClassPathXmlApplicationContext("applicationContext.xml");
 //		userService = (IUserService) ac.getBean("userService");
 //	}
-
+ 
 	@Test
 	public void test1() {
 		User user = userService.getUserById(1);
